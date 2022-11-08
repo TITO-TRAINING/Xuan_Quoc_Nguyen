@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border: 1px solid #373684;
+            border-collapse: collapse;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 1%;
+        }
+
+        th,
+        td {
+            border: 1px solid #373684;
+            padding: 2%;
+        }
+
+        th {
+            background-color: #373684;
+            color: #fff;
+            font-size: 1.15em;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #b7b7e1;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Equipment</th>
+            <th>Daily Rate</th>
+            <th>Weekend Rate</th>
+        </tr>
+        <tr>
+            <td>Guitars</td>
+            <td>$25</td>
+            <td>$40</td>
+        </tr>
+        <tr>
+            <td>Keyboards</td>
+            <td>$25</td>
+            <td>$40</td>
+        </tr>
+        <tr>
+            <td>Drum Kits</td>
+            <td>$25</td>
+            <td>$40</td>
+        </tr>
+        <tr>
+            <td>Microphones</td>
+            <td>$25</td>
+            <td>$40</td>
+        </tr>
+    </table>
+
+    <form class="form-grid">
+        <!-- Start Form -->
+        <label for="fName">First Name:</label>
+        <input type="text" name="fName" id="fName">
+        <label for="lName">Last Name:</label>
+        <input type="text" name="lName" id="lName">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <p>I am interested in:</p>
+        <label for="guitarles"><input type="checkbox" name="interest" id="guitarles" value="Guitar Lessons">Guitar
+            Lessons</label>
+        <label for="piano"><input type="checkbox" name="interest" id="pianoles" value="Piano Lessons">Piano
+            Lessons</label>
+        <label for="violin"><input type="checkbox" name="interest" id="violinles" value="Violin Lessons">Violin
+            Lessons</label>
+        <label for="rent"><input type="checkbox" name="interest" id="rent" value="Rental Equipment">Rental
+            Equipment</label>
+    </form>
+    sorry
+</body>
+
+</html>
