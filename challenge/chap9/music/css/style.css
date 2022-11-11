@@ -577,3 +577,8 @@ nav li {
     width: 50px;
     background-color: #373684;
 }
+
+.social .img {
+    display: inline-block;
+    padding: 4%;
+}
