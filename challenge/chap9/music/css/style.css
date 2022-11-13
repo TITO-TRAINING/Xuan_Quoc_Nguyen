@@ -403,11 +403,7 @@ nav li {
         display: block;
     }
 
-    nav li a:hover {
-        color: #373684;
-        background-color: #e5e9fc;
-        transform: scale(1.2);
-    }
+
 
     /* Desktop Viewport: Style rules for main content. */
     #info ul {
@@ -601,4 +597,20 @@ nav li {
 
 .text-dark-purple {
     color: #373684;
+}
+
+.box {
+    position: relative;
+}
+
+.popper-list {
+    background-color: red;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    color: aquamarine;
+}
+
+.box:hover .popper-list {
+    display: flex;
 }
