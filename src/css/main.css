@@ -339,6 +339,10 @@ figure{
     font-size: 16px;
 }
 
+.contact{
+    padding-bottom: 80px;
+}
+
 .contact-content__wrapper{
     display: flex;
 }
@@ -384,6 +388,21 @@ figure{
     height: 24px;
 }
 
+.message{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.textArea{
+    width: 485px;
+    margin-left: 22px;
+    border-radius: 4px;
+}
+
+.label_title1{
+    margin-left: 22px;
+}
 .contact-phone{
     display: flex;
     flex-direction: row;
@@ -396,16 +415,26 @@ figure{
 
 .icon-phone__contact{
 
+    
+}
+
+.title-contact{
+    margin: 40px 0;
 }
 
 .form-contact{
     width: 536px;
     height: 414px;
+    padding: 42px 34px;
+    border: 2.13px solid #E6E6E6;
+    box-shadow: 0px 4px 9px 0px #00000033;
+    margin: 0 30px;
 }
 
 .form-contact__NameMail{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .name-input{
@@ -413,21 +442,48 @@ figure{
     flex-direction: column;
 }
 
+.input-name{
+    width: 204px;
+    border-radius: 4px;
+    border: 1px solid #999999;
+    padding: 9px;
+}
+
 .email-input{
     display: flex;
     flex-direction: column;
+}
+
+.input-email{
+    width: 204px;
+    border-radius: 4px;
+    border: 1px solid #999999;
+    padding: 9px;
+    /* margin-left: 12px; */
+}
+
+.submit-contact{
+    text-align: center;
+    margin: 66px 0;
+    width: 210px;
+    border: 1px solid #EBCB80;
+    border-radius: 50px;
+    background-color: #EBCB80;
+    margin: 66px auto;
+    padding: 14px;;
 }
 .info-credits{
 
 }
 
 .credit-title{
-
+    margin:0 0 20px;
 }
 
 .credit-description{
     width: 236px;
     height: 96px;
+    line-height: 20px;
 }
 
 .social-network{
@@ -435,13 +491,17 @@ figure{
 }
 
 .social-title{
+    margin: 26px 0;
 
 }
 
 .group--icon__social{
-
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: start;
 }
 
 .social-icon{
-
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
