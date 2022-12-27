@@ -1,0 +1,28 @@
+{
+  "env": {
+    "browser": true,
+    "es2022": true,
+    "node": true
+  },
+  "extends": "google",
+  "overrides": [],
+
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"],
+    "no-use-before-define": "off",
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "no-nested-ternary": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+
+  "globals": {
+    "root": "readonly",
+    "app": "readonly",
+    "db": "readonly"
+  }
+}
