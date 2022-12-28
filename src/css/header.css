@@ -159,3 +159,65 @@ body {
 .icon-child {
     /* position: absolute; */
 }
+
+@media only screen and (max-width: 768px) {
+    .header-main__logo {
+        color: var(--color-logo);
+        font-size: 24px;
+        /* left: 200px !important; */
+        margin-left: 32px;
+        top: 55px;
+        width: 136px;
+        height: 29px;
+    }
+
+    .menu__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 75px;
+        font-size: 12px;
+    }
+    
+    .menu-box__content {
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        font-size: 11px;
+        padding: 10px 20px;
+        border-radius: 50px;
+    }
+
+    .header-email{
+        width: 228px;
+        padding: 9px;
+    }
+    
+    .header-submit {
+        width: 140px;
+        height: 40px;
+        background-color: #0000;
+        border-radius: 50px;
+        margin-left: 30px;
+    }
+
+    .header-main__bottom {
+        width: 100%;
+        height: 650px;
+        object-fit: cover;
+        object-position: center;
+        background-image: url(../assets/images/tablet/Background.png);
+        background-repeat: no-repeat;
+        background-size: 100% 566px;
+        position: relative;
+    }
+
+    .overlay{
+        height: 566px;
+    }
+
+    .icon{
+        width: 64px;
+        height: 64px;
+    }
+}

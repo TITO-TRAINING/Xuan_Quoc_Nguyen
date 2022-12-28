@@ -1,0 +1,67 @@
+@import url("./variable.css");
+.footer{
+    background-color: var(--nav-bg);
+    padding-bottom: 40px;
+}
+
+.footer-title{
+    font-size: 18px;
+    color: #ffffff;
+    padding-bottom: 30px ;
+}
+.social-icon{
+    color: aliceblue;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 52px;
+    padding-bottom: 30px;
+}
+
+.footer-location{
+    width: 133px;
+    height: 64px;
+    opacity: 50.31%;
+    color: #ffffff;
+}
+
+.footer-email{
+    width: 174px;
+    height: 24px;
+    opacity: 50.31%;
+    color: #ffffff;
+}
+
+.group-social__footer{
+    display: flex;
+}
+
+.aboutUS-description{
+    width: 360px;
+    height: 48px;
+    opacity: 50.31%;
+    color: #ffffff;
+}
+
+
+
+.footer-bottom__link{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.name-company{
+    opacity: 50.31%;
+    color: #ffffff;
+}
+
+.footer-page{
+    display: flex;
+    justify-content: space-between;
+    width: 538px;
+    font-size: 18px;
+    color: #ffffff;
+}
