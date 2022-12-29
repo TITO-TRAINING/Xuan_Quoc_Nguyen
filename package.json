@@ -4,14 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/page/index.html"
+    "start": "parcel src/page/index.html",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-google": "^0.14.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
     "parcel": "^2.8.0",
     "posthtml-doctype": "^1.1.1",
-    "posthtml-include": "^1.7.4"
+    "posthtml-include": "^1.7.4",
+    "prettier": "2.8.1"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
