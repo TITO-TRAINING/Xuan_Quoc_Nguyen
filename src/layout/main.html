@@ -129,11 +129,24 @@
   <section class="business">
     <div class="container">
       <figure class="business-avatar__wrap">
-        <img
+        <picture>
+          <source
+          media="(max-width:768px)"
+          srcset=" ../assets/images/tablet/Rectangle13.png"
+          class="img-main"
+          />
+          <source
+          media="(max-width:375px)"
+          srcset=" ../assets/images/mobile/Person6.png "
+          class="img-main"
+          />
+          <img
           src="../assets/images/desktop/Rectangle.png"
           alt="Ida Stephents"
           class="business-avatar"
-        />
+          />
+        </picture>
+        
         <figcaption class="name-business">
           Ida Stephens — Noir Project
         </figcaption>
@@ -184,8 +197,8 @@
           <include
             src="../components/card-advantages.html"
             locals='{
-                        "cardImageMobile": "../assets/images/desktop/safe.png",
-                        "cardImageTablet" : "../assets/images/desktop/safe.png",
+                        "cardImageMobile": "../assets/images/mobile/safe.png",
+                        "cardImageTablet" : "../assets/images/tablet/safe.png",
                         "cardTitle": "SECURE",
                         "cardIcon":"../assets/images/desktop/safe.png",
                         "extension": "YOUR DATA IS PROTECTED",
@@ -198,9 +211,9 @@
           <include
             src="../components/card-advantages.html"
             locals='{
-                        "cardImageMobile": "../assets/images/desktop/aesthetic.png",
-                        "cardImageTablet" : "../assets/images/desktop/aesthetic.png",
-                        "cardTitle": "SECURE",
+                        "cardImageMobile": "../assets/images/mobile/aesthetic.png",
+                        "cardImageTablet" : "../assets/images/tablet/aesthetic.png",
+                        "cardTitle": "AESTHETIC",
                         "cardIcon":"../assets/images/desktop/aesthetic.png",
                         "extension": "UNIQUE DESIGN",
                         "description" :"Acres of Diamonds… you’ve read the famous story, or at least had it related to you."
@@ -208,13 +221,13 @@
           ></include>
         </div>
 
-        <div class="platinium">
+        <div class="platinium ">
           <include
             src="../components/card-advantages.html"
             locals='{
-                        "cardImageMobile": "../assets/images/desktop/neat-icon.png",
-                        "cardImageTablet" : "../assets/images/desktop/neat-icon.png",
-                        "cardTitle": "SECURE",
+                        "cardImageMobile": "../assets/images/mobile/neat-icon.png",
+                        "cardImageTablet" : "../assets/images/tablet/neat-icon.png",
+                        "cardTitle": "NEAT",
                         "cardIcon":"../assets/images/desktop/neat-icon.png",
                         "extension": "ACCURATE IN DETAILS",
                         "description" :"Some days a motivational quote can provide a quick pick-me-up."
