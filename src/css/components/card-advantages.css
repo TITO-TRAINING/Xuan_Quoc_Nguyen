@@ -57,4 +57,21 @@
 .description-detail {
   width: 230px;
   height: 72px;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+  .description-detail {
+    width: 178px;
+    height: 32px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .findMore{
+    width: 140px;
+    padding: 7px;
+    margin-top: 30px;
+  }
 }
