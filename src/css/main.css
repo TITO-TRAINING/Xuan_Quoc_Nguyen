@@ -276,7 +276,6 @@ figure {
 
 .form-wrapper {
   width: 360px;
-  /* height: 477.6px; */
   height: 384px;
   display: flex;
   justify-content: center;
@@ -289,7 +288,6 @@ figure {
   width: 360px;
   height: 384px;
   position: absolute;
-  /* z-index: 1000; */
   background: linear-gradient(
     223.49deg,
     rgba(0, 0, 0, 0.0001) 4.85%,
@@ -454,7 +452,6 @@ figure {
   border-radius: 4px;
   border: 1px solid #999999;
   padding: 9px;
-  /* margin-left: 12px; */
 }
 
 .submit-contact {
@@ -515,6 +512,12 @@ figure {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0 20px;
+  }
+  .silver {
+    margin-left: 31px;
+  }
+
+  .gold {
+    margin: 0 16px;
   }
 }
