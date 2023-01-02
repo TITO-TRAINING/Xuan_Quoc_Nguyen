@@ -321,12 +321,6 @@ figure {
   background-color: #999999;
 }
 
-.email-form {
-}
-
-.password-form {
-}
-
 .have-account {
   position: absolute;
   color: var(--color-logo);
@@ -419,9 +413,6 @@ figure {
   margin-left: 11px;
 }
 
-.icon-phone__contact {
-}
-
 .title-contact {
   margin: 40px 0;
 }
@@ -476,8 +467,6 @@ figure {
   margin: 66px auto;
   padding: 14px;
 }
-.info-credits {
-}
 
 .credit-title {
   margin: 0 0 20px;
@@ -487,9 +476,6 @@ figure {
   width: 236px;
   height: 96px;
   line-height: 20px;
-}
-
-.social-network {
 }
 
 .social-title {
