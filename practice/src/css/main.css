@@ -214,6 +214,27 @@ figure {
   background-color: var(--nav-bg);
 }
 
+.advantages {
+  max-width: 100%;
+  height: 680px;
+  background-color: #4b4b4b;
+}
+
+.title_advantages {
+  padding: 56px 56px 0;
+}
+
+.title_advantages {
+  color: #ffffff;
+}
+
+.sub-title__advantages {
+  width: 430px;
+  height: 48px;
+  margin: 25px auto;
+  color: #ffffff;
+}
+
 @media  only screen and (min-width:37.5em) and (max-width: 64.0625em){
     .team{
         display: flex;
@@ -254,6 +275,7 @@ figure {
     .about-slider__icon{
       display: none;
     }
+
 }
 
 @media only screen and (max-width: 37.4375em){
@@ -309,12 +331,13 @@ figure {
     .plan-content__wrapper{
       display: flex;
       flex-direction: column;
+      justify-content: flex-start;
     }
 
     .about-slider__icon{
       display: none;
     }
-    
+
     .point-pagination {
       width: 1%;
       height: 6px;
@@ -322,4 +345,9 @@ figure {
       border-radius: 50%;
       margin: 0 4px;
   }
+
+  .advantages{
+    height: 1590px;
+  }
+
 }
