@@ -13,7 +13,7 @@ main {
   width: 100%;
 }
 
-figure,picture {
+figure {
   margin: 0;
 }
 
@@ -164,7 +164,6 @@ figure,picture {
   font-size: 16px;
   letter-spacing: 0em;
   line-height: 24px;
-
   text-align: center;
   font-size: 12px;
   font-family: Roboto;
@@ -356,27 +355,18 @@ figure,picture {
 }
 
 @media  only screen and (min-width:37.5em) and (max-width: 64.0625em){
-
-  figure{
-    margin: 0;
-    width: 100%;
-  }
-    .icon-header{
-      margin: 0;
-    }
-
     .team{
         display: flex;
         flex-direction: row;
     }
   
-    .box1{
+      .box1{
         display: flex;
         flex-direction: column;
         width: 50%;
     }
   
-    .box2{
+ .box2{
         display: flex;
         flex-direction: column;
         width: 50%;
@@ -411,15 +401,11 @@ figure,picture {
       justify-content: center;
       gap: 20px;
     }
-    
 
 }
 
-@media only screen and (max-width: 37.4375em){
-    .icon-header{
-        margin: 0;
-    }
 
+@media only screen and (max-width: 37.4375em){
     .team{
         display: flex;
         flex-direction: column;
@@ -525,5 +511,7 @@ figure,picture {
   .form-submit{
     margin-top: 20px;
     padding: 8px;
+  .advantages{
+    height: 1590px;
   }
 }
