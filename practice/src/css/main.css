@@ -13,7 +13,7 @@ main {
   width: 100%;
 }
 
-figure,picture {
+figure {
   margin: 0;
 }
 
@@ -284,18 +284,19 @@ figure,picture {
       margin: 0;
     }
 
+@media  only screen and (min-width:37.5em) and (max-width: 64.0625em){
     .team{
         display: flex;
         flex-direction: row;
     }
   
-    .box1{
+      .box1{
         display: flex;
         flex-direction: column;
         width: 50%;
     }
-  
-    .box2{
+
+      .box2{
         display: flex;
         flex-direction: column;
         width: 50%;
@@ -337,7 +338,9 @@ figure,picture {
     .icon-header{
         margin: 0;
     }
+}
 
+@media only screen and (max-width: 37.4375em){
     .team{
         display: flex;
         flex-direction: column;
@@ -396,7 +399,6 @@ figure,picture {
     .about-slider__icon{
       display: none;
     }
-
     .point-pagination {
       width: 1%;
       height: 6px;
@@ -404,7 +406,6 @@ figure,picture {
       border-radius: 50%;
       margin: 0 4px;
   }
-
   .advantages{
     height: 1590px;
   }
@@ -423,4 +424,7 @@ figure,picture {
     gap: 20px;
   }
 
+  .advantages{
+    height: 1590px;
+  }
 }
