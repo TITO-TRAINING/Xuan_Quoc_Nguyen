@@ -13,7 +13,8 @@ main {
   width: 100%;
 }
 
-figure,picture {
+
+figure {
   margin: 0;
 }
 
@@ -50,7 +51,8 @@ figure,picture {
 
 .plan {
   width: 100%;
-  height: 680px;
+  height: 100%;
+  padding-bottom: 7%;
   background-color: #4b4b4b;
 }
 
@@ -140,7 +142,7 @@ figure,picture {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 120px;
+  padding-top: 7%;
   margin-bottom: 0;
 }
 
@@ -157,14 +159,13 @@ figure,picture {
 }
 
 .content-business {
-  width: 555px;
-  height: 96px;
+  width: 60%;
   font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0em;
   line-height: 24px;
-
+  padding-bottom: 24px;
   text-align: center;
   font-size: 12px;
   font-family: Roboto;
@@ -216,7 +217,7 @@ figure,picture {
 
 .advantages {
   max-width: 100%;
-  height: 680px;
+  padding-bottom: 8%;
   background-color: #4b4b4b;
 }
 
@@ -229,7 +230,7 @@ figure,picture {
 }
 
 .sub-title__advantages {
-  width: 430px;
+  width: 50%;
   height: 48px;
   margin: 25px auto;
   color: #ffffff;
@@ -264,7 +265,7 @@ figure,picture {
 .location-image__wrapper {
   display: grid;
   grid-template-columns:20% 20% 20%;
-  grid-template-rows: 48% 48%;
+  grid-template-rows: 50% 54%;
   margin: 0 auto;
   gap: 20px;
   justify-content: center;
@@ -282,8 +283,8 @@ figure,picture {
   background-image: url("../assets/images/desktop/Mask.png");
   width: 100%;
   background-repeat: no-repeat;
-  height: 588px;
-  background-size: 1533px 588px;
+  padding-bottom: 20px;
+  background-size: 100% 100%;
   position: relative;
 }
 
@@ -293,8 +294,8 @@ figure,picture {
 }
 
 .form-wrapper {
-  width: 360px;
-  height: 384px;
+  width: 34%;
+  height: 512px;
   display: flex;
   justify-content: center;
   background-color: var(--nav-bg);
@@ -303,8 +304,8 @@ figure,picture {
   border-radius: 8px;
 }
 .form-create {
-  width: 360px;
-  height: 384px;
+  width: 34%;
+  height: 512px;
   position: absolute;
   background: linear-gradient(
     223.49deg,
@@ -329,7 +330,7 @@ figure,picture {
 }
 
 .form-a {
-  width: 256px;
+  width: 78%;
   font-size: 14px;
   border-radius: 4px;
   margin-bottom: 24px;
@@ -340,16 +341,16 @@ figure,picture {
 .have-account {
   position: absolute;
   color: var(--color-logo);
-  top: 400px;
+  padding-top: 8%;
   text-decoration: underline;
 }
 
 .form-submit {
   position: absolute;
   background-color: var(--color-logo);
-  top: 442px;
+  margin-top: 18%;
   padding: 15px;
-  width: 198px;
+  width: 14%;
   text-align: center;
   border-radius: 50px;
   font-size: 16px;
@@ -529,7 +530,8 @@ figure,picture {
     .box1{
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 48%;
+        margin-left: 22px;
     }
   
     .box2{
@@ -562,12 +564,29 @@ figure,picture {
     }
     .location-image__wrapper{
       display: grid;
-      grid-template-rows: 20% 20% 20%;
-      grid-template-rows: 45% 45%;
+      grid-template-columns: 20% 20% 20%;
+      grid-template-rows: 44% 45%;
       justify-content: center;
       gap: 20px;
     }
+    
+    .form-wrapper{
+      width: 36%;
+      height: 414px;
+    }
 
+    .form-create{
+      width: 36%;
+      height: 414px;
+    }
+
+    .form-submit{
+      margin-top: 25%;
+    }
+
+    .have-account {
+      padding-top: 10%;
+    }
     .contact{
       width: 100%;
     }
@@ -655,16 +674,19 @@ figure,picture {
     .box1{
         display: flex;
         flex-direction: column;
+        margin-left: 12px;
     }
 
     .box2{
         display: flex;
         flex-direction: column;
+        margin-left: 12px;
     }
 
     .plan{
       width: 100%;
-      height: 1452px;
+      height: 100%;
+      padding-bottom: 16%;
     }
 
     .wrapper{
@@ -716,19 +738,20 @@ figure,picture {
   }
 
   .advantages{
-    height: 1590px;
+    height: 100%;
   }
 
   .sub-title__advantages{
-    width: 90%;
+    width: 56%;
     margin: 0 auto;
+    padding-top: 4%;
   }
   
 
   .location-image__wrapper{
     display: grid;
-    grid-template-rows: 26% 26% 26%;
-    grid-template-columns: 30% 30% ;
+    grid-template-rows: 29% 29% 29%;
+    grid-template-columns: 24% 24% ;
     justify-content: center;
     gap: 20px;
   }
