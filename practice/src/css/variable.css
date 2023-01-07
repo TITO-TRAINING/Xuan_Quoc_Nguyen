@@ -70,7 +70,7 @@
     }
   }
   
-  @media screen and (max-width:376px) {
+  @media screen and (max-width:46.1825em) {
     .title--main__mobile{
       font-size: 20px;
     }
