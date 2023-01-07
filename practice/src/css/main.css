@@ -13,6 +13,7 @@ main {
   width: 100%;
 }
 
+
 figure {
   margin: 0;
 }
@@ -53,7 +54,7 @@ figure {
         display: flex;
         flex-direction: row;
     }
-
+    
     .container{
       width: 100%;
     }
@@ -75,6 +76,7 @@ figure {
         width: 70%;
     }
 }
+
 
 @media only screen and (max-width: 37.4375em){
     .team{
