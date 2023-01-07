@@ -123,6 +123,7 @@ figure {
   margin: 24px auto;
 }
 
+
 .name-business {
   font-family: Roboto;
   font-size: 18px;
@@ -322,4 +323,5 @@ figure {
       border-radius: 50%;
       margin: 0 4px;
   }
+
 }
