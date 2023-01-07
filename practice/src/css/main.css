@@ -57,7 +57,8 @@ figure {
       .box1{
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 48%;
+        margin-left: 14px;
     }
   
       .box2{
