@@ -53,6 +53,10 @@ figure {
         display: flex;
         flex-direction: row;
     }
+
+    .container{
+      width: 100%;
+    }
   
       .box1{
         display: flex;
