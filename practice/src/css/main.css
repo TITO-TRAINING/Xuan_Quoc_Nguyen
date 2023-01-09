@@ -667,7 +667,6 @@ figure {
     .icon-header{
         margin: 0;
     }
-
     .team{
         display: flex;
         flex-direction: column;
@@ -823,7 +822,6 @@ figure {
     margin: 7px;
     height: 100%;
   }
-
 
   .credits{
     order: 3;
