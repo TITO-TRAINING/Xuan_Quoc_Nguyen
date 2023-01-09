@@ -106,10 +106,6 @@ figure {
   margin: 24px auto;
 }
 
-/* .wrapper-image{
-  margin-right: 52px;
-} */
-
 .platinium {
   width: 30%;
   background: linear-gradient(
@@ -614,7 +610,6 @@ figure {
     .credit-description{
       font-size: 12px;
     }
-
     .information-contact{
       order: 2;
       width: 30%;
@@ -751,7 +746,6 @@ figure {
     .personal-account{
       font-size: 12px;
     }
-
     .about-slider__icon{
       display: none;
     }
@@ -849,14 +843,13 @@ figure {
     margin: 7px;
     height: 100%;
   }
-
-
   .credits{
     order: 3;
     width: 85%;
     margin-left: 54px;
     margin-top: 20px;
   }
+
 }
 @media only screen and (max-width: 20em){
   .wrap-card{
