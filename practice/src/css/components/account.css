@@ -1,0 +1,185 @@
+.create-account {
+    width: 100%;
+  }
+  
+  .account-container {
+    background-image: url("../../assets/images/desktop/Mask.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    background-size: 100% 100%;
+    position: relative;
+  }
+  
+  .title-account {
+    color: #ffffff;
+    padding-top: 60px;
+  }
+  
+  .form-wrapper {
+    width: 34%;
+    height: 512px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--nav-bg);
+    align-items: center;
+    margin: 30px auto;
+    border-radius: 8px;
+  }
+  .form-create {
+    width: 34%;
+    height: 512px;
+    position: absolute;
+    background: linear-gradient(
+      223.49deg,
+      rgba(0, 0, 0, 0.0001) 4.85%,
+      rgba(0, 0, 0, 0.401127) 96.5%
+    );
+  
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+  }
+  
+  .form-create__title {
+    font-size: 18px;
+    border-radius: 8px;
+    color: var(--color-logo);
+    text-align: center;
+    margin: 20px;
+  }
+  .form-create__content {
+    text-align: center;
+  }
+  
+  .form-a {
+    width: 78%;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    padding: 8px;
+    background-color: #999999;
+  }
+  
+  .have-account {
+    position: absolute;
+    color: var(--color-logo);
+    text-decoration: underline;
+  }
+  
+  .form-submit {
+    position: absolute;
+    background-color: var(--color-logo);
+    transform: translateY(163%);
+    padding: 15px;
+    width: 14%;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 16px;
+  }
+
+  @media screen and (max-width:1200px){
+    .form-wrapper{
+      width: 36%;
+      height: 414px;
+    }
+
+    .form-create{
+      width: 36%;
+      height: 414px;
+    }
+
+    .form-submit{
+      transform: translateY(219%);
+    }
+
+    .have-account {
+      transform: translateY(214%);
+    }
+    .contact{
+      width: 100%;
+    }
+    
+    .form-contact{
+      width: 30%;
+      padding: 33px 34px;
+      order: 1;
+    }
+
+    .contact-email{
+      font-size: 12px;
+    }
+
+    .credit-description{
+      font-size: 12px;
+    }
+
+    .information-contact{
+      order: 2;
+      width: 30%;
+    }
+
+    .contact-location{
+      font-size: 12px;
+      width: 90%;
+    }
+
+    .credits{
+      order: 3;
+      width: 30%;
+    }
+    .form-contact__NameMail{
+      width: 100%;
+      display: flex;
+      margin: 0 auto;
+      justify-content: space-between;
+    }
+
+    .name-input{
+      width: 46%;
+    }
+
+    .input-name{
+      width: 100%;
+      
+      padding: 4px;
+    }
+
+    .email-input{
+      width: 46%;
+    }
+
+    .input-email{
+      width: 100%;
+      padding: 4px;
+    }
+
+    .label_title1{
+      margin: 0;
+    }
+    .textArea{
+      margin: 12px auto;
+      width: 100%;
+    }
+
+    .submit-contact {
+      text-align: center;
+      width: 60%;
+      margin: 55px auto;
+      padding: 6px;
+  }
+
+    .container-contact{
+      width: 100%;
+    }
+
+    .credit-description {
+      width: 100%;
+      height: 96px;
+      line-height: 20px;
+  }
+  }
+
+  @media screen and (max-width:767px){
+    
+  }
