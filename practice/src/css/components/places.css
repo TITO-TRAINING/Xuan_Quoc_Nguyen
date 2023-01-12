@@ -3,6 +3,10 @@
     margin: 0 auto;
     padding-bottom: 80px;
   }
+
+  .location-mobile{
+    display: none;
+}
   
   .place-title {
     margin: 30px 0 0;
@@ -41,9 +45,23 @@
       justify-content: center;
       gap: 20px;
     }
+    .location-mobile{
+      display: none;
+  }
   }
 
   @media screen and (max-width:767px) {
+    .location{
+      display: none;
+  }
+    .location-mobile{
+      display: block;
+      width: 40%;
+      margin: 18px auto;
+      padding: 10px;
+      border-radius: 48px;
+      border: 1px solid #4B4B4B;
+  }
     .location-image__wrapper{
       display: grid;
       grid-template-rows: 30% 30% 30%;
