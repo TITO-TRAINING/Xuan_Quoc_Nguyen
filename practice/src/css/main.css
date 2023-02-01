@@ -99,7 +99,6 @@ main {
   color: var(--nav-bg);
   margin: 24px auto;
 }
-
  .purchase:hover {
   background-color: var(--text-white);
   color: var(--nav-bg);
@@ -107,7 +106,6 @@ main {
   transition-delay: 0.1s;
   transition-duration: 0.2s;
 }
-
 
 @media  only screen  and (max-width: 1200px){
     .container{
@@ -129,7 +127,6 @@ main {
         justify-content: center;
         align-items: center;
     }
-
     .silver .purchase{
       width: 60%;
     }

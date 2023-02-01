@@ -50,11 +50,9 @@ body {
 .menu__list a:hover{
   color: var(--color-logo);
 }
-
 .menu__box {
   position: relative;
 }
-
 
 .menu-box__content {
   background-color: transparent;
@@ -195,9 +193,6 @@ body {
     margin-right: 50px;
     font-size: 12px;
   }
-
-  
-
   .menu-box__content {
     background-color: transparent;
     border: 2px solid #ffffff;
