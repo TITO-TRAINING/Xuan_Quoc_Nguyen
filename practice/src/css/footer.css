@@ -6,6 +6,8 @@
 
 hr{
     width: 99%;
+    height:1px;
+     color:#7D7D7D;
 }
 
 .footer-title {
@@ -85,9 +87,6 @@ hr{
 
   .container-contact{
     width: 100%;
-  }
-  hr{
-    width: 99%;
   }
 
   .contact-footer{
