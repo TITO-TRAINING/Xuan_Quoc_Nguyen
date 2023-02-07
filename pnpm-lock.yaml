@@ -2,9 +2,13 @@ lockfileVersion: 5.4
 
 specifiers:
   parcel: ^2.8.0
+  posthtml-doctype: ^1.1.1
+  posthtml-include: ^1.7.4
 
 devDependencies:
   parcel: 2.8.2
+  posthtml-doctype: 1.1.1
+  posthtml-include: 1.7.4
 
 packages:
 
@@ -1091,6 +1095,10 @@ packages:
     engines: {node: '>=0.8.0'}
     dev: true
 
+  /fclone/1.0.11:
+    resolution: {integrity: sha512-GDqVQezKzRABdeqflsgMr7ktzgF9CyS+p2oe0jJqUY6izSSbhPIQJDpoU4PtGcD7VPM9xh/dVrTu6z1nwgmEGw==}
+    dev: true
+
   /get-port/4.2.0:
     resolution: {integrity: sha512-/b3jarXkH8KJoOMQc3uVGHASwGLPq3gSFJ7tgJm2diza+bydJPTGOibin2steecKeOylE8oY2JERlVWkAJO6yw==}
     engines: {node: '>=6'}
@@ -1419,6 +1427,39 @@ packages:
 
   /postcss-value-parser/4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
+    dev: true
+
+  /posthtml-doctype/1.1.1:
+    resolution: {integrity: sha512-G5Flc83qRhN9mSls93C/djIbElynPzqZ3sPpVISNr3/9uXuByILHhSh8yXODeCwIxggB65szy1tnY8xOWT8lyw==}
+    dev: true
+
+  /posthtml-expressions/1.11.0_posthtml@0.16.6:
+    resolution: {integrity: sha512-Un7J/UugURkoxCuFJ+1UwzmXe19hPrfUBOYgrjf2ipkCyghSh8L3ldwKttgjs8GI+4aPPUFThAted0J2tpORnA==}
+    engines: {node: '>=10'}
+    dependencies:
+      fclone: 1.0.11
+      posthtml-match-helper: 1.0.3_posthtml@0.16.6
+      posthtml-parser: 0.10.2
+      posthtml-render: 3.0.0
+    transitivePeerDependencies:
+      - posthtml
+    dev: true
+
+  /posthtml-include/1.7.4:
+    resolution: {integrity: sha512-GO5QzHiM6/fXq8DxLoLN+jEW4sH/6nuGF9z+NJmP1qi1A3J2zCC7WwXrEwaPL3T8LrH+FL4IedK+mIJHbn5ZEA==}
+    engines: {node: '>=12'}
+    dependencies:
+      posthtml: 0.16.6
+      posthtml-expressions: 1.11.0_posthtml@0.16.6
+      posthtml-parser: 0.11.0
+    dev: true
+
+  /posthtml-match-helper/1.0.3_posthtml@0.16.6:
+    resolution: {integrity: sha512-aeRAPvok2Fs6uzSm85665jdAk5UOd8US2QCkWtGU6yLPlKSwzWTSgZZuABc3UeNy3K1lVk/HV9bRkWJYN05Ymw==}
+    peerDependencies:
+      posthtml: '>=0.5.0'
+    dependencies:
+      posthtml: 0.16.6
     dev: true
 
   /posthtml-parser/0.10.2:
