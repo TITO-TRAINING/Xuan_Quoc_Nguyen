@@ -6,14 +6,13 @@
     width: 80%;
 }
 
-.icon-header{
-    width: 100%;
-}
+
 
 @media screen and (max-width:1200px){
     .icon-header{
         width: 100%;
         margin: 0;
+        
     }
     
     .wrapper-image{
@@ -26,10 +25,7 @@
 }
 
 @media screen and (max-width:767px){
-    .icon-header{
-        width: 100%;
-        margin: 0;
-    }
+    
     
     .wrapper-image{
         width: 100%;

@@ -13,7 +13,7 @@
   }
   
   .title-account {
-    color: #ffffff;
+    color: var(--text-white);
     padding-top: 60px;
   }
   

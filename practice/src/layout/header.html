@@ -1,31 +1,22 @@
 <header class="header-main">
   <div class="container">
     <div class="header-main__top">
-      <a href="javascript:void(0)" class="header-main__logo">HOFMANN</a>
+      <a href="javascript:void(0)" class="header-main__logo uppercase"
+        >hoffman</a
+      >
       <div class="menu">
         <nav>
-          <ul class="menu__list">
-            <li>
-              <a
-                href="javascript:void(0)"
-                >MISSION</a
-              >
-            </li>
-            <li>
-              <a
-                href="javascript:void(0)"
-                >SERVICES</a
-              >
-            </li>
-            <li>
-              <a
-                href="javascript:void(0)"
-                >ABOUT</a
-              >
-            </li>
-          </ul>
+          <div class="menu__list">
+            <include
+              src="../components/list.html"
+              locals='{
+              "list": "[`home`, `services`, `about`]",
+              "class": "uppercase"
+            }'
+            ></include>
+          </div>
         </nav>
-          <div class="menu-box__content">TAKE A TOOR</div>
+        <div class="menu-box__content uppercase">take a toor</div>
       </div>
     </div>
 
@@ -33,10 +24,12 @@
       <div class="overlay"></div>
       <div class="header-main__content">
         <div class="header-main__content--child">
-          <p class="title-header title--main title--main__tablet title--main__mobile">
+          <p
+            class="title-header title--main title--main__tablet title--main__mobile"
+          >
             Choosing The Right Boutique Hotel For You
           </p>
-          <p class="sub-title header-main__sub-title text1__mobile">
+          <p class="sub-title header-main__sub-title text__mobile">
             How To Fly A Private Jet On Your Next Trip
           </p>
           <div class="action">

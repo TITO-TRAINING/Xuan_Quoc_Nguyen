@@ -2,7 +2,3 @@
 @import url("./main.css");
 @import url("./variable.css");
 @import url("./footer.css");
-
-body {
-  height: 100%;
-}

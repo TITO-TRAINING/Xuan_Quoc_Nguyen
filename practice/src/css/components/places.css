@@ -37,7 +37,7 @@
   
   .location-image__wrapper {
     display: grid;
-    grid-template-columns:20% 20% 20%;
+    grid-template-columns:24% 24% 24%;
     grid-template-rows: 47% 54%;
     margin: 0 auto;
     gap: 20px;

@@ -1,47 +1,45 @@
 <section class="plan">
-    <h2 class="title--main title_price title--main__tablet">
-      Choose Your Plan
-    </h2>
-    <div class="wrapper">
-      <div class="plan-content__wrapper">
-        <div class="silver">
-          <include
-            src="../components/card.html"
-            locals='{
-                        "cardTitle": "SILVER",
+  <h2 class="title--main title_price title--main__tablet">Choose Your Plan</h2>
+  <div class="wrapper">
+    <div class="plan-content__wrapper">
+      <div class="silver">
+        <include
+          src="../components/card.html"
+          locals='{
+                        "cardTitle": "silver",
                         "price": "49",
                         "account": "Personal Account",
                         "data": "25 GB Discspace",
                         "uploads": "Uploads per day"
                         }'
-          ></include>
-        </div>
+        ></include>
+      </div>
 
-        <div class="gold">
-          <include
-            src="../components/card.html"
-            locals='{
-                            "cardTitle": "GOLD",
+      <div class="gold">
+        <include
+          src="../components/card.html"
+          locals='{
+                            "cardTitle": "gold",
                             "price": "99",
                             "account": "Personal Account",
                             "data": "50 GB Discspace",
                             "uploads": "Uploads per day"
                         }'
-          ></include>
-        </div>
+        ></include>
+      </div>
 
-        <div class="platinium">
-          <include
-            src="../components/card.html"
-            locals='{
-                            "cardTitle": "PLATINIUM",
+      <div class="platinium">
+        <include
+          src="../components/card.html"
+          locals='{
+                            "cardTitle": "platinium",
                             "price": "299",
                             "account": "Team Account",
                             "data": "500 GB Discspace",
                             "uploads": "Unlimited Uploads per day"
                         }'
-          ></include>
-        </div>
+        ></include>
       </div>
     </div>
-  </section>
+  </div>
+</section>
