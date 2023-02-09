@@ -1,14 +1,15 @@
+  .container-team{
+    width: 80%;
+    margin: 0 auto;
+  }
 
   .team-profile{
     width: 97%;
+    margin-right: 22px;
   }
 
   .team {
-    padding-bottom: 44px;
-  }
-
-  .main-team__title {
-    margin: 30px 0;
+    margin: 44px 0;
   }
   
   .content {
@@ -27,7 +28,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-  }
+  }.team
   .team-profile__image {
     margin: 20px 0;
   }

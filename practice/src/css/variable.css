@@ -58,7 +58,7 @@
   }
   
   @media only screen  and (max-width: 1200px) {
-    .text1__tablet {
+    .text__tablet {
       font-size: 12px;
     }
     .title--main__tablet {
@@ -77,7 +77,7 @@
       font-size: 20px;
     }
   
-    .text1__mobile {
+    .text__mobile {
       font-size: 14px;
     }
   
