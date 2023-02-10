@@ -1,5 +1,5 @@
 .location-image {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     padding-bottom: 80px;
   }
@@ -37,8 +37,8 @@
   
   .location-image__wrapper {
     display: grid;
-    grid-template-columns:20% 20% 20%;
-    grid-template-rows: 47% 54%;
+    grid-template-columns:30% 30% 30%;
+    grid-template-rows: 47% 50%;
     margin: 0 auto;
     gap: 20px;
     justify-content: center;
@@ -47,7 +47,7 @@
   @media screen and (max-width:1200px) {
     .location-image__wrapper{
       display: grid;
-      grid-template-columns: 24% 24% 24%;
+      grid-template-columns: 30% 30% 30%;
       grid-template-rows: 47% 45%;
       justify-content: center;
       gap: 20px;
