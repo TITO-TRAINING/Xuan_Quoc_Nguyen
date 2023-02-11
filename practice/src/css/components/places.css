@@ -72,7 +72,7 @@
     .location-image__wrapper{
       display: grid;
       grid-template-rows: 30% 30% 30%;
-      grid-template-columns: 30% 30% ;
+      grid-template-columns: 48% 48% ;
       justify-content: center;
       gap: 20px;
     }
