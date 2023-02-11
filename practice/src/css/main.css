@@ -152,7 +152,7 @@ main {
     }
 
     .silver{
-      width: 70%;
+      width: 80%;
       margin: 20px auto;
     }
     .silver .purchase{
@@ -166,7 +166,7 @@ main {
     }
 
     .gold{
-      width: 70%;
+      width: 80%;
       margin: 20px auto;
     }
 
@@ -176,7 +176,7 @@ main {
     }
 
     .platinium{
-      width: 70%;
+      width: 80%;
       margin: 20px auto;
     }
 }
