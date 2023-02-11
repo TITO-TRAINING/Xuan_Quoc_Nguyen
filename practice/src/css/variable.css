@@ -6,6 +6,7 @@
     --nav-bg: #4b4b4b;
     --color-logo: #ebcb80;
     --text-white: #ffffff;
+    --shadow:#00000080;
     box-sizing: border-box;
   }
   
@@ -35,6 +36,10 @@
   h6 {
     margin: 0;
   }
+  
+.uppercase {
+  text-transform: uppercase;
+}
   
   .title--main {
     font-size: 44px;
