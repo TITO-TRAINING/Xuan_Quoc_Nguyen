@@ -13,12 +13,12 @@
   }
   
   .title-account {
-    color: #ffffff;
+    color: var(--text-white);
     padding-top: 60px;
   }
   
   .form-wrapper {
-    width: 50%;
+    width: 26%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -59,7 +59,7 @@
     border-radius: 4px;
     margin-bottom: 24px;
     padding: 8px;
-    background-color: #999999;
+    background-color: var(--border-gray);
   }
   
   .have-account {
@@ -91,7 +91,7 @@
   @media screen and (max-width:1200px){
 
     .form-wrapper{
-      width: 50%;
+      width: 30%;
     }
     .contact{
       width: 100%;

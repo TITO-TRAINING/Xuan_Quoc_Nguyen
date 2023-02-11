@@ -4,11 +4,12 @@
   
   .information-contact{
     width: 24%;
-    margin-left: 57px;
   }
   .contact-content__wrapper {
     display: flex;
     justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
   }
   
   .container-contact {
@@ -22,6 +23,10 @@
     margin-bottom: 20px;
   }
   
+  .phone-icon{
+    height: 26px;
+    margin-top: 5px;
+  }
   .contact-location {
     display: flex;
     flex-direction: row;
@@ -139,8 +144,7 @@
     transition-duration: 0.2s;
   }
   .credits{
-    width: 27%;
-    margin-left: 57px;
+    width: 24%;
   }
   
   .credit-title {
@@ -179,7 +183,6 @@
       border: none;
       box-shadow: none;
       padding: 0;
-      margin-left: 12px;
     }
 
     .name-input{
@@ -217,7 +220,7 @@
       padding: 4% 0;
     }
     .form-contact{
-      width: 82%;
+      width: 80%;
       height: 100%;
       border: none;
       box-shadow: none;
