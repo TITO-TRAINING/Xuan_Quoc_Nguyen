@@ -67,12 +67,12 @@
       margin: 18px auto;
       padding: 10px;
       border-radius: 48px;
-      border: 1px solid #4B4B4B;
+      border: 1px solid var(--nav-bg);
   }
     .location-image__wrapper{
       display: grid;
       grid-template-rows: 30% 30% 30%;
-      grid-template-columns: 32% 32% ;
+      grid-template-columns: 30% 30% ;
       justify-content: center;
       gap: 20px;
     }
