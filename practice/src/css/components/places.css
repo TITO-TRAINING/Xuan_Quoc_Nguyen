@@ -1,15 +1,19 @@
 .location-image {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding-bottom: 80px;
   }
-
+  .container-places{
+    max-width: 1440px;
+    width: 80%;
+    margin: 0 auto;
+  }
   .location-mobile{
     display: none;
 }
   
   .place-title {
-    margin: 30px 0 0;
+    padding: 30px 0 0;
     color: var(--nav-bg);
   }
   
@@ -37,8 +41,8 @@
   
   .location-image__wrapper {
     display: grid;
-    grid-template-columns:30% 30% 30%;
-    grid-template-rows: 47% 50%;
+    grid-template-columns:32% 32% 32%;
+    grid-template-rows: 47% 54%;
     margin: 0 auto;
     gap: 20px;
     justify-content: center;
@@ -47,7 +51,7 @@
   @media screen and (max-width:1200px) {
     .location-image__wrapper{
       display: grid;
-      grid-template-columns: 30% 30% 30%;
+      grid-template-columns: 32% 32% 32%;
       grid-template-rows: 47% 45%;
       justify-content: center;
       gap: 20px;
