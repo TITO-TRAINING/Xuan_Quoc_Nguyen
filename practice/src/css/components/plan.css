@@ -2,10 +2,13 @@
     width: 100%;
     height: 100%;
     padding-bottom: 7%;
-    background-color: #4b4b4b;
+    background-color: var(--nav-bg);
 }
 
 .wrapper{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1440px;
     height: 60%;
 }
 
@@ -15,7 +18,7 @@
     width: 100%;
     margin: 0 auto;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     height: 100%;
   }
 
