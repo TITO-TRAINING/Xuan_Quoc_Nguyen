@@ -4,9 +4,16 @@ html,
 body {
   font-family: Roboto;
 }
-
-.header-main {
-  width: 100%;
+.wraper-herder__top{
+  max-width: 1440px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: var(--nav-bg);
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
 }
 
 .header-main__top {
@@ -39,12 +46,9 @@ body {
   font-size: 18px;
 }
 
-.menu__list li {
+.menu__list p {
   padding-left: 39px;
-}
-
-.menu__list a {
-  color: #ffffff;
+  color: var(--text-white);
 }
 
 .menu__list a:hover{
@@ -56,8 +60,8 @@ body {
 
 .menu-box__content {
   background-color: transparent;
-  border: 2px solid #ffffff;
-  color: #ffffff;
+  border: 2px solid var(--text-white);
+  color: var(--text-white);
   font-size: 18px;
   padding: 10px 20px;
   border-radius: 18px;
@@ -86,7 +90,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #b08f34;
+  background-color: var(--color-logo);
   opacity: 0.5;
 }
 
@@ -100,8 +104,8 @@ body {
 }
 
 .header-main__content--child {
-  padding-top: 20%;
-  padding-bottom: 7%;
+  padding-top: 16.1rem;
+  padding-bottom: 6rem;
 }
 
 .header-main__sub-title {
@@ -124,7 +128,7 @@ body {
 }
 
 .header-email {
-  background-color: transparent !important;
+  background-color: transparent ;
   width: 40%;
   border-radius: 4px;
   color: var(--nav-bg);
@@ -173,8 +177,8 @@ body {
 }
 /*>=740 and <=1023*/
 @media only screen  and (max-width: 1200px) {
-  .container{
-    width: 100%;
+  .container-header {
+    max-width: 1440px;
   }
 
   .header-main__logo {
@@ -195,8 +199,8 @@ body {
   }
   .menu-box__content {
     background-color: transparent;
-    border: 2px solid #ffffff;
-    color: #ffffff;
+    border: 2px solid var(--text-white);
+    color: var(--text-white);
     font-size: 11px;
     padding: 10px 20px;
     border-radius: 50px;
@@ -210,7 +214,7 @@ body {
   .header-submit {
     width: 30%;
     height: 100%;
-    background-color: #0000;
+    background-color: var(--text-black);
     border-radius: 50px;
     margin-left: 30px;
     padding: 10px;
